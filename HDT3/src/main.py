@@ -3,7 +3,7 @@ import sorts
 import timeit
 
 def generatorRandom():
-    array = [random.randint(1, 10000) for j in range(10)]
+    array = [random.randint(1, 10000) for j in range(2600)]
     return array
 
 def run_algorithms():
