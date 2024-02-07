@@ -85,7 +85,7 @@ else:
 numerosAleatorios = generatorRandom()
 
 #print(sorts.quickSort(numerosAleatorios,0,len(numerosAleatorios)-1,ascDescBoolean))
-#1print(sorts.gnomeSort(numerosAleatorios,ascDescBoolean))
+#print(sorts.gnomeSort(numerosAleatorios,ascDescBoolean))
 #print(sorts.heapSort(numerosAleatorios,ascDescBoolean))
 #print(sorts.mergeSort(numerosAleatorios,ascDescBoolean))
 #print(sorts.radixSort(numerosAleatorios,ascDescBoolean))

@@ -123,8 +123,7 @@ def quickSort(arr, low, high, ascending):
         quickSort(arr, pi+1, high, ascending)
         
     return arr
-
-def counting(arr, place, ascending):
+def counting(arr, place, ascending=True):
     size = len(arr)
     output = [0] * size
     count = [0] * 10
@@ -162,7 +161,7 @@ def counting(arr, place, ascending):
     for i in range(size):
         arr[i] = output[i]
 
-def radixSort(arr, ascending):
+def radixSort(arr, ascending=True):
     max_element = max(arr)
     place = 1
     while max_element // place > 0:
