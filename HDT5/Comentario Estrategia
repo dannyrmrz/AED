@@ -1,0 +1,9 @@
+Después de analizar los resultados, la estrategia más efectiva para reducir 
+el tiempo promedio de ejecución de los procesos es aumentar la velocidad 
+del procesador. Esto permite completar más instrucciones en menos tiempo, 
+acelerando el procesamiento de los procesos. Aunque aumentar la memoria 
+también puede ayudar a evitar cuellos de botella, y añadir un segundo 
+procesador puede permitir una mayor concurrencia, la mejora en velocidad 
+ofrece el mayor impacto directo en el tiempo de ejecución de los procesos. 
+Por lo tanto, priorizar el aumento de la velocidad del procesador puede 
+ser la mejor opción para optimizar el rendimiento del sistema.
