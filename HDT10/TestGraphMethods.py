@@ -1,5 +1,5 @@
 import unittest
-
+from functions import Graph, calculate_center_of_graph
 class TestGraphMethods(unittest.TestCase):
 
     def setUp(self):
